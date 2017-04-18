@@ -10,8 +10,15 @@
 </head>
 <body>
     <div id="root" class="container">
-        <div id="chapter_title" class="chapter_title"></div>
-        <div id="chapter_content" class="m-read-content">
+        <div class="m-article-action">
+            <div class="article-action" id="article-action"></div>
+        </div>
+        <div id="top-nav" class="top-nav" style="display: none">
+            <div class="icon-back"></div>
+            <div class="nav-title">返回书架</div>
+        </div>
+        <div id="chapter-title" class="chapter-title"></div>
+        <div id="chapter-content" class="m-read-content">
             <h4>我是帅哥</h4>
             <p>
                 你真呢可很快就到哈萨克静待花开煎熬圣诞节看啥饥渴的很快就到哈市空间的哈数据库的哈克加深大家可视电话卡机你真呢可很快就到哈萨克静待花开煎熬圣诞节看啥饥渴的很快就到哈市空间的哈数据库的哈克加深大家可视电话卡机你真呢可很快就到哈萨克静待花开煎熬圣诞节看啥饥渴的很快就到哈市空间的哈数据库的哈克加深大家可视电话卡机你真呢可很快就到哈萨克静待花开煎熬圣诞节看啥饥渴的很快就到哈市空间的哈数据库的哈克加深大家可视电话卡机
@@ -32,6 +39,61 @@
                 <li id="next">下一章</li>
             </ul>
         </div>
+        <div class="nav-pannel-bg" style="display: none"></div>
+        <div class="nav-pannel" id="font-container" style="display: none">
+            <div class="child-mod">
+                <span>字号</span>
+                <button id="large-font" class="fontSize-button">大</button>
+                <button id="small-font" class="fontSize-button">小</button>
+            </div>
+            <div class="child-mod">
+                <span>背景</span>
+                <div class="bg-container">
+                    <div class="bg-current"></div>
+                </div>
+                <div class="bg-container">
+                    <div class="bg-current"></div>
+                </div>
+                <div class="bg-container">
+                    <div class="bg-current"></div>
+                </div>
+                <div class="bg-container">
+                    <div class="bg-current"></div>
+                </div>
+            </div>
+        </div>
+        <div id="footer-nav" class="footer-nav" style="display: none">
+            <div class="item" id="menu-button">
+                <div class="item-warp">
+                    <div class="icon-menu iconfont icon-git45"></div>
+                    <div class="icon-text">
+                        目录
+                    </div>
+                </div>
+            </div>
+            <div class="item" id="font-button">
+                <div class="item-warp">
+                    <div class="icon-ft iconfont icon-ziti"></div>
+                    <div class="icon-text">
+                        字体
+                    </div>
+                </div>
+            </div>
+            <div class="item" id="night-button">
+                <div class="item-warp" style="display:none" id="day-icon">
+                    <div class="icon-day iconfont  icon-baitianmoshi"></div>
+                    <div class="icon-text">
+                        白天
+                    </div>
+                </div>
+                <div class="item-warp" id="night-icon">
+                    <div class="icon-night iconfont icon-yejian"></div>
+                    <div class="icon-text">
+                        夜间
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <script src="js/zepto.min.js"></script>
     <script>
@@ -40,5 +102,6 @@
 
     <script src="js/jquery.base64.js"></script>
     <script src="js/jquery.jsonp.js"></script>
+    <script src="js/index.js"></script>
 </body>
 </html>
