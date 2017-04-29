@@ -83,7 +83,7 @@ body{
 
 .nav-pannel-bg{
     position: fixed;
-    bottom: 69px;
+    bottom: 70px;
     height: 135px;
     width: 100%;
     background: #000;
@@ -93,7 +93,7 @@ body{
 .nav-pannel{
     position:fixed;
     bottom: 70px;
-    z-index:1001;
+    z-index:1003;
     height: 135px;
     width: 100%;
     background: none;
@@ -137,7 +137,7 @@ body{
     z-index: 10004;
     margin: 0 auto;
     text-align: center;
-    border:1px solid #fff;
+    /*border:1px solid #fff;*/
 }
 .footer-nav .item{
     display: inline-block;
@@ -176,7 +176,6 @@ body{
     display: inline-block;
     vertical-align: -10px;
     margin-right: 10px;
-    background: #fff;
 }
 .bg-current{
     position: absolute;
@@ -188,15 +187,15 @@ body{
     border:1px solid #ff7800;
     display:inline-block;
 }
-.bg-container:nth-child(3){
-    background: #e9dfc7;
-}
-.bg-container:nth-child(4){
-    background: #80ff8e;
-}
-.bg-container:nth-child(5){
-    background: #0f0f0f;
-}
+/*.bg-container:nth-child(3){*/
+    /*background: #fff;*/
+/*}*/
+/*.bg-container:nth-child(4){*/
+    /*background: #80ff8e;*/
+/*}*/
+/*.bg-container:nth-child(5){*/
+    /*background: #0f0f0f;*/
+/*}*/
 
 
 .article-action{
